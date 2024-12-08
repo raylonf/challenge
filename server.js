@@ -5,7 +5,7 @@ const app = express();
 app.use(express.json());
 
 async function getGithubRepos(username) {
-  const url = `https://api.github.com/users/${username}/repos?per_page=5&sort=created&direction=asc&lang=c%23`;
+  const url = `https://api.github.com/users/${username}/repos?per_page=10&sort=created&direction=asc&lang=c%23`;
 
   try {
     const response = await fetch(url, {
