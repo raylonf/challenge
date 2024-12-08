@@ -17,30 +17,30 @@ Como Executar o Projeto
 1.	Clone o repositório:
 
 
-	git clone https://github.com/seu-usuario/seu-repositorio.git
-	cd seu-repositorio
+		git clone https://github.com/seu-usuario/seu-repositorio.git
+		cd seu-repositorio
 
 2.	Instale as dependências do projeto:
 
-	git clone https://github.com/seu-usuario/seu-repositorio.git
-	cd seu-repositorio
+		git clone https://github.com/seu-usuario/seu-repositorio.git
+		cd seu-repositorio
 
 2.	Instale as dependências do projeto:
-	npm install
+		npm install
 
 3.	Certifique-se de que o arquivo package.json contém a propriedade "type": "module":
 
-	{
-  "type": "module"
-}
+			{
+		  "type": "module"
+		}
 
 4.	Inicie o servidor:
 
-	node server.js
+		node server.js
 
 5.	Acesse o endpoint da API utilizando um navegador ou uma ferramenta como Postman:
 
-	GET http://localhost:3000/getdata/{username}
+		GET http://localhost:3000/getdata/{username}
 
 Substitua {username} pelo nome de usuário do GitHub que você deseja consultar.
 
